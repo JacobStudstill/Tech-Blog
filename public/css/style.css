@@ -1,7 +1,11 @@
-header, .posts:not(:last-child) {
+header {
   border-bottom: 1px solid #ccc;
+  background-color: rgb(59, 38, 10);
 }
 
+.posts:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
 .no-button {
   background: none;
   border: none;
@@ -16,14 +20,38 @@ header, .posts:not(:last-child) {
   color: #065b83;
   text-decoration: underline;
 }
-
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+.nav-item{
+  margin: 3% 0 0 2.5%;
+  background-color: rgb(59, 38, 10)
+}
+.nav-item a {
+  color:rgb(149, 204, 176);
+  padding:1%;
+  padding-top: 0.1%;
 }
 
-.textarea{
+.textarea {
   width:60vw;
   resize:none;
+}
+
+.tech{
+  margin: 1% 0 0 2.5%;
+  background-color: rgb(59, 38, 10)
+}
+.tech a{
+  margin: 1% 0 0 2.5%;
+  background-color: rgb(149, 204, 176);
+  color:rgb(59, 38, 10);
+  padding:0.1%;
+}
+
+.nav{
+  color:teal;
+  background-color: rgb(59, 38, 10);
+  padding-top:0.5%
+}
+
+.li-inline {
+  display: inline;
 }
