@@ -21,13 +21,14 @@ header {
   text-decoration: underline;
 }
 .nav-item{
-  margin: 3% 0 0 2.5%;
+  margin: 3% 0 1% 2.5%;
   background-color: rgb(59, 38, 10)
 }
 .nav-item a {
   color:rgb(149, 204, 176);
   padding:1%;
   padding-top: 0.1%;
+  padding-bottom: 0.1%;
 }
 
 .textarea {
